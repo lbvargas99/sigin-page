@@ -1,0 +1,72 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #E5E5E5;
+    color: #224957;
+    overflow: hidden;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#login {
+    margin-top: 30px;
+}
+
+#login, #password {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: #224957;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+input[type='checkbox'] {
+    accent-color: #224957;
+}
+
+form a{
+    margin-left: 32px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;  
+    text-align: center;
+    margin-top: 30px;
+    background-color: #20DF7F;
+    color: #224957;
+    border: none;
+}
+
+img {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
