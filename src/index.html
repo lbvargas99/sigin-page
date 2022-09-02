@@ -18,18 +18,34 @@
         <p>Sign in and enjoy your website!</p>
         <form>
             <input type="text" name="login" id="login" placeholder="Login" autocomplete="off"><br>
+
             <input type="password" name="password" id="password" placeholder="Password"><br>
-            <input type="checkbox" name="remember" id="remebmer">
-            <label for="remember">Remember me</label>
-            <a href="#">Forgot password?</a><br>
-            <button type="submit">Login</button>
+
+            <div>
+                <input type="checkbox" id="rbr">
+                <label for="rbr">Remember me</label>
+                <a href="#">Forgot password?</a><br>
+            </div>
+
+            <button class="btn-form" type="submit">Login</button>
         </form>
+        <div class="btn-darkmode">
+            <input class="checkbox" type="checkbox" id="chk">
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
 
 
     </main>
     <footer>
-        <img src="imgs/bg-1.svg" alt="imagem-rodape-light">
+        <img class="footer-bg" src="imgs/bg-1.svg" alt="imagem-rodape-light">
     </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
