@@ -80,6 +80,7 @@ div a {
     border: hidden;
     background-color: var(--link-color-darkmode);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
 }
 
 .btn-darkmode {
@@ -89,8 +90,12 @@ div a {
 }
 
 /* Dark mode */
-body.dark {
+.body-dark {
     background: var(--bg-color-darkmode);
+}
+
+.darkk {
+    color: var(--text-color-darkmode);
 }
 
 
