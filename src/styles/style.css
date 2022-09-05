@@ -83,10 +83,16 @@ div a {
     cursor: pointer;
 }
 
-.btn-darkmode {
+#darkmode-btn {
+    background-color: var(--bg-color-darkmode);
+    color: white;
+
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
+    border-radius: 10px;
+    border: hidden;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    cursor: pointer;
 }
 
 /* Dark mode */
@@ -94,56 +100,20 @@ div a {
     background: var(--bg-color-darkmode);
 }
 
-.darkk {
+.text-dark {
     color: var(--text-color-darkmode);
 }
 
-
-/* Change mode functionality */
-.checkbox {
-    opacity: 0;
-    position: absolute;
+.light-green {
+    color: var(--link-color-darkmode);
 }
 
-.label {
-    background-color: var(--bg-color-darkmode);
-    border-radius: 50px;
-    cursor: pointer;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 5px;
-    position: relative;
-    height: 26px;
-    width: 50px;
-
-    transform: scale(0.8);
+.input-dark {
+    background-color: #ffffff17 !important;
 }
 
-.label .ball {
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-
-    height: 22px;
-    width: 22px;
-
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
-}
-
-.checkbox:checked + .label .ball {
-    transform: translateX(28px);
-}
-
-.fa-moon {
-    color: #f1c40f;
-}
-
-.fa-sun {
-    color: #f39c12;
+.darkmode-btn {
+    background-color: #ffffff17 !important;
 }
 
 /* Footer */

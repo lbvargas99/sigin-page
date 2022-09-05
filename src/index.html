@@ -12,36 +12,30 @@
     <title>Sign in</title>
 </head>
 
-<body class="body">
+<body id="body">
     <main>
-        <h1>Sign in</h1>
-        <p>Sign in and enjoy your website!</p>
+        <h1 id="h1">Sign in</h1>
+        <p id="p">Sign in and enjoy your website!</p>
         <form>
-            <input type="text" name="login" id="login" placeholder="Login" autocomplete="off"><br>
+            <input class="" class="none" type="text" name="login" id="login" placeholder="Login" autocomplete="off"><br>
 
-            <input type="password" name="password" id="password" placeholder="Password"><br>
+            <input class="" type="password" name="password" id="password" placeholder="Password"><br>
 
             <div>
                 <input type="checkbox" id="rbr">
-                <label for="rbr">Remember me</label>
-                <a href="#">Forgot password?</a><br>
+                <label id="remember" for="rbr">Remember me</label>
+                <a id="forgot-password" href="#">Forgot password?</a><br>
             </div>
 
             <button class="btn-form" type="submit">Login</button>
         </form>
-        <div class="btn-darkmode">
-            <input class="checkbox" type="checkbox" id="chk">
-            <label class="label" for="chk">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-            </label>
-        </div>
+        
+        <button id="darkmode-btn" onclick="changeMode()"><i class="fas fa-moon"></i></button>
 
 
     </main>
     <footer>
-        <img class="footer-bg" src="imgs/bg-1.svg" alt="imagem-rodape-light">
+        <img id="footer-bg" class="footer-bg" src="imgs/bg-1.svg" alt="imagem-rodape">
     </footer>
 
     <script src="scripts/script.js"></script>
