@@ -1,6 +1,9 @@
 # Sign in / Sign up
 ![Imagem da pagina de login lightmode](https://i.imgur.com/qnfyzOT.png)
 ![Imagem da pagina de login darkmode](https://i.imgur.com/wC2RFK2.png)
+<h1 align="center">
+    <img alt="gif to show page" title="Show page" src="./assets/pageGif.gif" />
+</h1>
 
 # Descrião
 Projeto com intuito de prática e exercitar conceitos de HTML, CSS e JS.
